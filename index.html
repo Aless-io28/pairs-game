@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="juego.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h2>Thal3ss</h2>
+      <nav class="nabvar">
+        <ul class="list-nav">
+          <!-- <li><a href="" class="nav-a">Funciones</a></li> -->
+          <li><a href="" class="nav-a">Juegos</a></li>
+          <!-- <li><a href="" class="nav-a">Registrarse</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container-game">
+        <div class="show-game">
+          <div class="time">
+            Tiempo:
+            <div class="txtTemp">30</div>
+            <div class="timeShow"><span class="elapsed"></span></div>
+          </div>
+          <div class="points">
+            Puntos:
+            <span class="txtPoints">00</span>
+          </div>
+        </div>
+        <div class="container-squares">
+          <div class="squares sq0"></div>
+          <div class="squares sq1"></div>
+          <div class="squares sq2"></div>
+          <div class="squares sq3"></div>
+          <div class="squares sq4"></div>
+          <div class="squares sq5"></div>
+          <div class="squares sq6"></div>
+          <div class="squares sq7"></div>
+          <div class="squares sq8"></div>
+          <div class="squares sq9"></div>
+          <div class="squares sq10"></div>
+          <div class="squares sq11"></div>
+        </div>
+        <div class="data-game">
+          <p>Ronda: <span class="txtRound">00</span></p>
+          <p>Movimientos: <span class="txtMovements">00</span></p>
+          <p>Max. Racha: <span class="txtMaxStreack">00</span></p>
+          <p>Racha: <span class="txtStreak">00</span></p>
+        </div>
+        <div class="op-game">
+          <button type="button" class="btn-start">Comenzar</button>
+          <button type="button" class="btn-finalize" hidden>Salir</button>
+        </div>
+      </section>
+    </main>
+    <script src="juego.js"></script>
+  </body>
+</html>
